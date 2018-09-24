@@ -24,6 +24,7 @@ WHERE {
   # keep countries with flag emojis only
   ?shortNameStatement pq:P31 ?type.
   FILTER(LANG(?shortName) = "zxx" && ?type = wd:Q28840786).
+  FILTER(regex(str(?shortName), "[\\\\x{0001F1E6}-\\\\x{0001F1FF}]{2}")).
 
   # keep countries which are currently members of the United Nations
   ?country p:P463 ?statement.
