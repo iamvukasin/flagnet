@@ -1,2 +1,4 @@
 DATASET_FOLDER = 'dataset'
 CACHE_FOLDER = '.cache'
+
+IMAGE_SIZE = 800, 600
