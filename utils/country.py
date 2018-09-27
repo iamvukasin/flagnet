@@ -134,6 +134,24 @@ def _create_country_folders(countries: List[Country]):
                         'photos:\n'))
 
 
+def _create_label_map(countries: List[Country]):
+    """
+    Creates a label map for countries in protocol buffers format.
+
+    :param countries: a list of countries loaded from the cache folder or
+    Wikidata
+    """
+
+    with open(f'../{config.DATASET_FOLDER}/countries_label_map.pbtxt', 'w') as file:
+        for id_, country in enumerate(countries):
+            file.write(('item {\n'
+                        f'  id: {id_}\n'
+                        f'  name: "{country.code.lower()}"\n'
+                        f'  display_name: "{country.name}"\n'
+                        '}\n'))
+
+
 if __name__ == '__main__':
     all_countries = load_countries()
     _create_country_folders(all_countries)
+    _create_label_map(all_countries)
