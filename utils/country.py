@@ -145,7 +145,7 @@ def _create_label_map(countries: List[Country]):
     with open(f'../{config.DATASET_FOLDER}/countries_label_map.pbtxt', 'w') as file:
         for id_, country in enumerate(countries):
             file.write(('item {\n'
-                        f'  id: {id_}\n'
+                        f'  id: {id_ + 1}\n'
                         f'  name: "{country.code.lower()}"\n'
                         f'  display_name: "{country.name}"\n'
                         '}\n'))
