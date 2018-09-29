@@ -1,5 +1,29 @@
 country:
-  name: Mozambique
   code: MZ
   flag: 🇲🇿
+  name: Mozambique
 photos:
+- author: Vukašin Manojlović
+  filename: mz_00000.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: mz_00001.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: mz_00002.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: mz_00003.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: mz_00004.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: mz_00005.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver

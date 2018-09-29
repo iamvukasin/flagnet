@@ -1,5 +1,29 @@
 country:
-  name: Lebanon
   code: LB
   flag: 🇱🇧
+  name: Lebanon
 photos:
+- author: Vukašin Manojlović
+  filename: lb_00000.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lb_00001.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lb_00002.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lb_00003.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lb_00004.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lb_00005.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver

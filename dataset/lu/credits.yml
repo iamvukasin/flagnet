@@ -1,5 +1,29 @@
 country:
-  name: Luxembourg
   code: LU
   flag: 🇱🇺
+  name: Luxembourg
 photos:
+- author: Vukašin Manojlović
+  filename: lu_00000.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lu_00001.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lu_00002.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lu_00003.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lu_00004.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: lu_00005.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver

@@ -1,5 +1,29 @@
 country:
-  name: Comoros
   code: KM
   flag: 🇰🇲
+  name: Comoros
 photos:
+- author: Vukašin Manojlović
+  filename: km_00000.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: km_00001.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: km_00002.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: km_00003.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: km_00004.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: km_00005.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver

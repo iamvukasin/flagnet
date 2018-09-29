@@ -1,5 +1,29 @@
 country:
-  name: Dominican Republic
   code: DO
   flag: 🇩🇴
+  name: Dominican Republic
 photos:
+- author: Vukašin Manojlović
+  filename: do_00000.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: do_00001.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: do_00002.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: do_00003.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: do_00004.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver
+- author: Vukašin Manojlović
+  filename: do_00005.jpg
+  license: CC0 Public Domain
+  url: https://iamvukasin.github.com/flagwaver

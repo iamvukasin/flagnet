@@ -1,3 +1,8 @@
 # 🇸🇲 Photo credits for flags of San Marino (SM)
 
-No photos added
+  - `sm_00000.jpg` by Vukašin Manojlović, licensed under the CC0 Public Domain license ([source](https://iamvukasin.github.com/flagwaver))
+  - `sm_00001.jpg` by Vukašin Manojlović, licensed under the CC0 Public Domain license ([source](https://iamvukasin.github.com/flagwaver))
+  - `sm_00002.jpg` by Vukašin Manojlović, licensed under the CC0 Public Domain license ([source](https://iamvukasin.github.com/flagwaver))
+  - `sm_00003.jpg` by Vukašin Manojlović, licensed under the CC0 Public Domain license ([source](https://iamvukasin.github.com/flagwaver))
+  - `sm_00004.jpg` by Vukašin Manojlović, licensed under the CC0 Public Domain license ([source](https://iamvukasin.github.com/flagwaver))
+  - `sm_00005.jpg` by Vukašin Manojlović, licensed under the CC0 Public Domain license ([source](https://iamvukasin.github.com/flagwaver))
