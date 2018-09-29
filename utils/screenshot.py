@@ -11,8 +11,7 @@ from selenium import webdriver
 import config
 from utils.country import load_countries
 
-_FLAG_WAVER_URL = 'https://iamvukasin.github.com/flagwaver'
-_WIKIMEDIA_COMMONS_API_ENDPOINT = 'https://tools.wmflabs.org/magnus-toolserver/commonsapi.php'
+_FLAGWAVER_URL = 'https://iamvukasin.github.com/flagwaver'
 _SCREENSHOTS_AUTHOR = 'Vukašin Manojlović'
 _SCREENSHOTS_LICENSE = 'CC0 Public Domain'
 
@@ -103,7 +102,7 @@ if __name__ == '__main__':
             for direction in wind_directions:
                 for edge in flag_top_edges:
                     image_source = convert_wikicommons_url_to_png_url(country.flag_image)
-                    flagwaver_url = (f'{_FLAG_WAVER_URL}/#?hideui=true'
+                    flagwaver_url = (f'{_FLAGWAVER_URL}/#?hideui=true'
                                      f'&direction={direction}&topedge={edge}&src={image_source}&windtype=fixed')
                     file_name = f'{country_code}_{i:05}.jpg'
                     screenshot_path = f'../{config.DATASET_FOLDER}/{country_code}/{file_name}'
@@ -120,7 +119,7 @@ if __name__ == '__main__':
                         'author': _SCREENSHOTS_AUTHOR,
                         'filename': file_name,
                         'license': _SCREENSHOTS_LICENSE,
-                        'url': _FLAG_WAVER_URL
+                        'url': _FLAGWAVER_URL
                     })
 
                     i += 1
