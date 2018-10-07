@@ -80,7 +80,7 @@ def convert_wikicommons_url_to_png_url(url: str, image_width: int = 1000) -> str
     md5_hash = hashlib.md5(file_name.encode('utf-8')).hexdigest()
 
     return (f'https://upload.wikimedia.org/wikipedia/commons/thumb/'
-            f'{md5_hash[0]}/{md5_hash[:2]}/{file_name}/1000px-{file_name}.png')
+            f'{md5_hash[0]}/{md5_hash[:2]}/{file_name}/{image_width}px-{file_name}.png')
 
 
 if __name__ == '__main__':
