@@ -6,10 +6,12 @@ name = 'pypi'
 [requires]
 python_version = '3.6'
 
+[dev-packages]
+'pytest' = '*'
+
 [packages]
 'Jinja2' = '*'
 'requests' = '*'
 'ruamel.yaml' = '*'
-'pytest' = '*'
 'imageio' = '*'
 'selenium' = '*'

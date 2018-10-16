@@ -4,6 +4,6 @@ python:
 cache: pip
 install:
   - pip install pipenv
-  - pipenv install
+  - pipenv install --dev
 script:
   - pytest
