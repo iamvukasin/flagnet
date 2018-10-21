@@ -6,4 +6,4 @@ install:
   - pip install pipenv
   - pipenv install --dev
 script:
-  - pytest
+  - pytest --flake8 -v
