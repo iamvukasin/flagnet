@@ -1,0 +1,23 @@
+<annotation>
+    <folder>pw</folder>
+    <filename>pw_00003.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>pw</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>190</xmin>
+            <ymin>133</ymin>
+            <xmax>395</xmax>
+            <ymax>277</ymax>
+        </bndbox>
+    </object>
+</annotation>

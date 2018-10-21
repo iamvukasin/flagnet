@@ -1,0 +1,23 @@
+<annotation>
+    <folder>ne</folder>
+    <filename>ne_00005.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ne</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>278</xmin>
+            <ymin>133</ymin>
+            <xmax>395</xmax>
+            <ymax>270</ymax>
+        </bndbox>
+    </object>
+</annotation>

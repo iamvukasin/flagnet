@@ -1,0 +1,23 @@
+<annotation>
+    <folder>mw</folder>
+    <filename>mw_00000.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>mw</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>402</xmin>
+            <ymin>133</ymin>
+            <xmax>573</xmax>
+            <ymax>266</ymax>
+        </bndbox>
+    </object>
+</annotation>

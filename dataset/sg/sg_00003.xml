@@ -1,0 +1,23 @@
+<annotation>
+    <folder>sg</folder>
+    <filename>sg_00003.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>sg</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>219</xmin>
+            <ymin>134</ymin>
+            <xmax>394</xmax>
+            <ymax>260</ymax>
+        </bndbox>
+    </object>
+</annotation>

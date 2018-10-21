@@ -1,0 +1,23 @@
+<annotation>
+    <folder>th</folder>
+    <filename>th_00000.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>th</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>402</xmin>
+            <ymin>132</ymin>
+            <xmax>571</xmax>
+            <ymax>270</ymax>
+        </bndbox>
+    </object>
+</annotation>
