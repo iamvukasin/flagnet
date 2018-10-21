@@ -1,0 +1,23 @@
+<annotation>
+    <folder>by</folder>
+    <filename>by_00004.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>by</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>283</xmin>
+            <ymin>133</ymin>
+            <xmax>395</xmax>
+            <ymax>360</ymax>
+        </bndbox>
+    </object>
+</annotation>

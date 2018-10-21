@@ -1,0 +1,23 @@
+<annotation>
+    <folder>hn</folder>
+    <filename>hn_00003.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>hn</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>136</xmin>
+            <ymin>135</ymin>
+            <xmax>395</xmax>
+            <ymax>298</ymax>
+        </bndbox>
+    </object>
+</annotation>

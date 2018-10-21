@@ -1,0 +1,23 @@
+<annotation>
+    <folder>kw</folder>
+    <filename>kw_00003.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>kw</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>151</xmin>
+            <ymin>135</ymin>
+            <xmax>395</xmax>
+            <ymax>306</ymax>
+        </bndbox>
+    </object>
+</annotation>

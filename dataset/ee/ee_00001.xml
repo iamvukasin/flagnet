@@ -1,0 +1,23 @@
+<annotation>
+    <folder>ee</folder>
+    <filename>ee_00001.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ee</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>402</xmin>
+            <ymin>133</ymin>
+            <xmax>513</xmax>
+            <ymax>314</ymax>
+        </bndbox>
+    </object>
+</annotation>

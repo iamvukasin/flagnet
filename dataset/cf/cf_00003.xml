@@ -1,0 +1,23 @@
+<annotation>
+    <folder>cf</folder>
+    <filename>cf_00003.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>cf</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>230</xmin>
+            <ymin>134</ymin>
+            <xmax>395</xmax>
+            <ymax>262</ymax>
+        </bndbox>
+    </object>
+</annotation>

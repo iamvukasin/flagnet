@@ -1,0 +1,23 @@
+<annotation>
+    <folder>ec</folder>
+    <filename>ec_00001.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ec</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>402</xmin>
+            <ymin>133</ymin>
+            <xmax>522</xmax>
+            <ymax>305</ymax>
+        </bndbox>
+    </object>
+</annotation>

@@ -1,0 +1,23 @@
+<annotation>
+    <folder>il</folder>
+    <filename>il_00005.jpg</filename>
+    <size>
+        <width>800</width>
+        <height>600</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>il</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>290</xmin>
+            <ymin>134</ymin>
+            <xmax>394</xmax>
+            <ymax>299</ymax>
+        </bndbox>
+    </object>
+</annotation>
