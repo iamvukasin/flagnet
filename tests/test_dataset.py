@@ -1,5 +1,6 @@
 import glob
 import os
+import xml.etree.ElementTree as ET
 
 import imageio
 import ruamel.yaml as yaml
@@ -56,3 +57,60 @@ def test_dataset_credits():
 
     assert not images_without_credits, f'These images do not have credits:\n\t' \
                                        + "\n\t".join(images_without_credits)
+
+
+class InvalidLabelFormat(Exception):
+    def __init__(self, path: str):
+        self.path = path
+
+
+def test_dataset_labels():
+    images_without_labels = []
+    images_with_invalid_labels = []
+
+    for image_path in glob.glob(f'{config.DATASET_FOLDER}/*/*.jpg'):
+        folder_split = image_path.split('/')
+        xml_file_path = image_path[:-3] + 'xml'
+        folder_name = folder_split[-2]
+        image_file_name = folder_split[-1]
+
+        try:
+            tree = ET.parse(xml_file_path)
+            root = tree.getroot()
+
+            folder = root.find('folder')
+            file_name = root.find('filename')
+
+            if any([node is None for node in [folder, file_name]]):
+                raise InvalidLabelFormat(image_path)
+
+            if folder.text != folder_name or file_name.text != image_file_name:
+                raise InvalidLabelFormat(image_path)
+
+            for element in root.iter('object'):
+                name = element.find('name')
+                bounding_box = element.find('bndbox')
+
+                if any([node is None for node in [name, bounding_box]]):
+                    raise InvalidLabelFormat(image_path)
+
+                if name.text != folder_name:
+                    raise InvalidLabelFormat(image_path)
+
+                xmin = bounding_box.find('xmin')
+                xmax = bounding_box.find('xmax')
+                ymin = bounding_box.find('ymin')
+                ymax = bounding_box.find('ymax')
+
+                if any([node is None for node in [xmin, xmax, ymin, ymax]]):
+                    raise InvalidLabelFormat(image_path)
+        except IOError:
+            images_without_labels.append(image_path)
+        except InvalidLabelFormat as err:
+            images_with_invalid_labels.append(err.path)
+
+    assert not images_without_labels, f'These images do not have labels:\n\t' \
+                                      + "\n\t".join(images_without_labels)
+
+    assert not images_with_invalid_labels, f'These images have invalidly formatted label files:\n\t' \
+                                           + "\n\t".join(images_with_invalid_labels)
