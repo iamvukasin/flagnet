@@ -4,26 +4,38 @@ country:
   name: Nigeria
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ng/ng_00000.jpg
+  downloader: url_image
   filename: ng_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ng/ng_00001.jpg
+  downloader: url_image
   filename: ng_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ng/ng_00002.jpg
+  downloader: url_image
   filename: ng_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ng/ng_00003.jpg
+  downloader: url_image
   filename: ng_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ng/ng_00004.jpg
+  downloader: url_image
   filename: ng_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ng/ng_00005.jpg
+  downloader: url_image
   filename: ng_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

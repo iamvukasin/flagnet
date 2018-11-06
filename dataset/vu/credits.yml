@@ -4,26 +4,38 @@ country:
   name: Vanuatu
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/vu/vu_00000.jpg
+  downloader: url_image
   filename: vu_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/vu/vu_00001.jpg
+  downloader: url_image
   filename: vu_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/vu/vu_00002.jpg
+  downloader: url_image
   filename: vu_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/vu/vu_00003.jpg
+  downloader: url_image
   filename: vu_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/vu/vu_00004.jpg
+  downloader: url_image
   filename: vu_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/vu/vu_00005.jpg
+  downloader: url_image
   filename: vu_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

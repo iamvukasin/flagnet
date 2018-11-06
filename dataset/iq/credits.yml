@@ -4,26 +4,38 @@ country:
   name: Iraq
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/iq/iq_00000.jpg
+  downloader: url_image
   filename: iq_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/iq/iq_00001.jpg
+  downloader: url_image
   filename: iq_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/iq/iq_00002.jpg
+  downloader: url_image
   filename: iq_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/iq/iq_00003.jpg
+  downloader: url_image
   filename: iq_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/iq/iq_00004.jpg
+  downloader: url_image
   filename: iq_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/iq/iq_00005.jpg
+  downloader: url_image
   filename: iq_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

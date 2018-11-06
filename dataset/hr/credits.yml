@@ -4,26 +4,38 @@ country:
   name: Croatia
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/hr/hr_00000.jpg
+  downloader: url_image
   filename: hr_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/hr/hr_00001.jpg
+  downloader: url_image
   filename: hr_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/hr/hr_00002.jpg
+  downloader: url_image
   filename: hr_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/hr/hr_00003.jpg
+  downloader: url_image
   filename: hr_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/hr/hr_00004.jpg
+  downloader: url_image
   filename: hr_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/hr/hr_00005.jpg
+  downloader: url_image
   filename: hr_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

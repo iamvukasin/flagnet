@@ -117,6 +117,9 @@ if __name__ == '__main__':
                     # add credits for generated screenshots
                     credits_data['photos'].append({
                         'author': _SCREENSHOTS_AUTHOR,
+                        'download_url': f'https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/'
+                                        f'{country_code}/{file_name}',
+                        'downloader': 'url_image',
                         'filename': file_name,
                         'license': _SCREENSHOTS_LICENSE,
                         'url': _FLAGWAVER_URL

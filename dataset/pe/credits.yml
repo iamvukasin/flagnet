@@ -4,26 +4,38 @@ country:
   name: Peru
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pe/pe_00000.jpg
+  downloader: url_image
   filename: pe_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pe/pe_00001.jpg
+  downloader: url_image
   filename: pe_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pe/pe_00002.jpg
+  downloader: url_image
   filename: pe_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pe/pe_00003.jpg
+  downloader: url_image
   filename: pe_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pe/pe_00004.jpg
+  downloader: url_image
   filename: pe_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pe/pe_00005.jpg
+  downloader: url_image
   filename: pe_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

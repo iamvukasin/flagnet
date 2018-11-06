@@ -4,26 +4,38 @@ country:
   name: Republic of the Congo
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cg/cg_00000.jpg
+  downloader: url_image
   filename: cg_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cg/cg_00001.jpg
+  downloader: url_image
   filename: cg_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cg/cg_00002.jpg
+  downloader: url_image
   filename: cg_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cg/cg_00003.jpg
+  downloader: url_image
   filename: cg_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cg/cg_00004.jpg
+  downloader: url_image
   filename: cg_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cg/cg_00005.jpg
+  downloader: url_image
   filename: cg_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

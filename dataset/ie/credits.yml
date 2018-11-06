@@ -4,26 +4,38 @@ country:
   name: Ireland
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ie/ie_00000.jpg
+  downloader: url_image
   filename: ie_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ie/ie_00001.jpg
+  downloader: url_image
   filename: ie_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ie/ie_00002.jpg
+  downloader: url_image
   filename: ie_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ie/ie_00003.jpg
+  downloader: url_image
   filename: ie_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ie/ie_00004.jpg
+  downloader: url_image
   filename: ie_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/ie/ie_00005.jpg
+  downloader: url_image
   filename: ie_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

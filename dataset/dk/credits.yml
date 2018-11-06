@@ -4,26 +4,38 @@ country:
   name: Denmark
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/dk/dk_00000.jpg
+  downloader: url_image
   filename: dk_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/dk/dk_00001.jpg
+  downloader: url_image
   filename: dk_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/dk/dk_00002.jpg
+  downloader: url_image
   filename: dk_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/dk/dk_00003.jpg
+  downloader: url_image
   filename: dk_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/dk/dk_00004.jpg
+  downloader: url_image
   filename: dk_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/dk/dk_00005.jpg
+  downloader: url_image
   filename: dk_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

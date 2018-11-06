@@ -4,26 +4,38 @@ country:
   name: Zambia
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/zm/zm_00000.jpg
+  downloader: url_image
   filename: zm_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/zm/zm_00001.jpg
+  downloader: url_image
   filename: zm_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/zm/zm_00002.jpg
+  downloader: url_image
   filename: zm_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/zm/zm_00003.jpg
+  downloader: url_image
   filename: zm_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/zm/zm_00004.jpg
+  downloader: url_image
   filename: zm_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/zm/zm_00005.jpg
+  downloader: url_image
   filename: zm_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

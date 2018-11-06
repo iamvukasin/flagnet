@@ -4,26 +4,38 @@ country:
   name: Cyprus
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cy/cy_00000.jpg
+  downloader: url_image
   filename: cy_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cy/cy_00001.jpg
+  downloader: url_image
   filename: cy_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cy/cy_00002.jpg
+  downloader: url_image
   filename: cy_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cy/cy_00003.jpg
+  downloader: url_image
   filename: cy_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cy/cy_00004.jpg
+  downloader: url_image
   filename: cy_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/cy/cy_00005.jpg
+  downloader: url_image
   filename: cy_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

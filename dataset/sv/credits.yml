@@ -4,26 +4,38 @@ country:
   name: El Salvador
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sv/sv_00000.jpg
+  downloader: url_image
   filename: sv_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sv/sv_00001.jpg
+  downloader: url_image
   filename: sv_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sv/sv_00002.jpg
+  downloader: url_image
   filename: sv_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sv/sv_00003.jpg
+  downloader: url_image
   filename: sv_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sv/sv_00004.jpg
+  downloader: url_image
   filename: sv_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sv/sv_00005.jpg
+  downloader: url_image
   filename: sv_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

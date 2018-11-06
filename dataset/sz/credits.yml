@@ -4,26 +4,38 @@ country:
   name: Swaziland
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sz/sz_00000.jpg
+  downloader: url_image
   filename: sz_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sz/sz_00001.jpg
+  downloader: url_image
   filename: sz_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sz/sz_00002.jpg
+  downloader: url_image
   filename: sz_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sz/sz_00003.jpg
+  downloader: url_image
   filename: sz_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sz/sz_00004.jpg
+  downloader: url_image
   filename: sz_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/sz/sz_00005.jpg
+  downloader: url_image
   filename: sz_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

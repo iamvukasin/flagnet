@@ -28,7 +28,7 @@ def test_dataset_credits():
     images_not_found = []
     images_without_credits = []
     invalid_credits = []
-    required_fields = ['author', 'filename', 'license', 'url']
+    required_fields = ['author', 'download_url', 'downloader', 'filename', 'license', 'url']
 
     for country_folder in glob.glob(f'{config.DATASET_FOLDER}/*/'):
         images = {os.path.basename(path) for path in glob.glob(country_folder + '*.jpg')}

@@ -4,26 +4,38 @@ country:
   name: Federated States of Micronesia
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/fm/fm_00000.jpg
+  downloader: url_image
   filename: fm_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/fm/fm_00001.jpg
+  downloader: url_image
   filename: fm_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/fm/fm_00002.jpg
+  downloader: url_image
   filename: fm_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/fm/fm_00003.jpg
+  downloader: url_image
   filename: fm_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/fm/fm_00004.jpg
+  downloader: url_image
   filename: fm_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/fm/fm_00005.jpg
+  downloader: url_image
   filename: fm_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver

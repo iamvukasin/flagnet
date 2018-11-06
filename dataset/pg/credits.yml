@@ -4,26 +4,38 @@ country:
   name: Papua New Guinea
 photos:
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pg/pg_00000.jpg
+  downloader: url_image
   filename: pg_00000.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pg/pg_00001.jpg
+  downloader: url_image
   filename: pg_00001.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pg/pg_00002.jpg
+  downloader: url_image
   filename: pg_00002.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pg/pg_00003.jpg
+  downloader: url_image
   filename: pg_00003.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pg/pg_00004.jpg
+  downloader: url_image
   filename: pg_00004.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
 - author: Vukašin Manojlović
+  download_url: https://raw.githubusercontent.com/iamvukasin/flagnet/master/dataset/pg/pg_00005.jpg
+  downloader: url_image
   filename: pg_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
