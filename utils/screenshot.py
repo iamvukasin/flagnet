@@ -44,7 +44,7 @@ def _take_screenshot(url: str, screenshot_path: str, timeout: float = 0.0):
     driver = webdriver.Chrome(driver, options=options)
 
     driver.get(url)
-    driver.set_window_size(*config.IMAGE_SIZE)
+    driver.set_window_size(*config.SCREENSHOT_IMAGE_SIZE)
 
     # wait before taking a screenshot
     time.sleep(timeout)
