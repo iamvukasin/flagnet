@@ -93,12 +93,12 @@ if __name__ == '__main__':
         country_code = country.code.lower()
         i = 0
 
-        with open(f'../{config.DATASET_FOLDER}/{country_code}/credits.yml', 'r') as credits_file:
+        with open(f'{config.DATASET_FOLDER}/{country_code}/credits.yml', 'r') as credits_file:
             credits_data = yaml.load(credits_file, Loader=yaml.Loader)
             credits_data.pop('photos', None)
             credits_data['photos'] = []
 
-        with open(f'../{config.DATASET_FOLDER}/{country_code}/credits.yml', 'w') as credits_file:
+        with open(f'{config.DATASET_FOLDER}/{country_code}/credits.yml', 'w') as credits_file:
             for direction in wind_directions:
                 for edge in flag_top_edges:
                     image_source = convert_wikicommons_url_to_png_url(country.flag_image)

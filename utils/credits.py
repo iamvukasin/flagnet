@@ -36,5 +36,5 @@ def _create_markdown_from_yaml(yaml_file_path: str):
 
 
 if __name__ == '__main__':
-    for country_folder in glob.glob(f'../{config.DATASET_FOLDER}/*/'):
+    for country_folder in glob.glob(f'{config.DATASET_FOLDER}/*/'):
         _create_markdown_from_yaml(f'{country_folder}credits.yml')

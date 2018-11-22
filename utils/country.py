@@ -59,11 +59,10 @@ def load_countries(forced: bool = False) -> List[Country]:
     emoji, and flag image URL from WikiCommons for every country
     """
 
-    cache_folder = f'../{config.CACHE_FOLDER}'
-    cache_file_path = f'{cache_folder}/{_COUNTRIES_CACHE_FILE}'
+    cache_file_path = f'{config.CACHE_FOLDER}/{_COUNTRIES_CACHE_FILE}'
 
     # create cache folder or skip if it exists
-    os.makedirs(cache_folder, exist_ok=True)
+    os.makedirs(f'{config.CACHE_FOLDER}', exist_ok=True)
 
     # load the list of countries from a JSON file located in the cache folder
     if not forced and os.path.isfile(cache_file_path):
@@ -123,7 +122,7 @@ def _create_country_folders(countries: List[Country]):
     """
 
     for country in countries:
-        folder_path = f'../{config.DATASET_FOLDER}/{country.code.lower()}'
+        folder_path = f'{config.DATASET_FOLDER}/{country.code.lower()}'
         os.makedirs(folder_path, exist_ok=True)
 
         with open(f'{folder_path}/credits.yml', 'w') as file:
@@ -142,7 +141,7 @@ def _create_label_map(countries: List[Country]):
     Wikidata
     """
 
-    with open(f'../{config.DATASET_FOLDER}/countries_label_map.pbtxt', 'w') as file:
+    with open(f'{config.DATASET_FOLDER}/countries_label_map.pbtxt', 'w') as file:
         for id_, country in enumerate(countries):
             file.write(('item {\n'
                         f'  id: {id_ + 1}\n'
