@@ -20,7 +20,7 @@ def test_dataset_image_size():
             invalid_shaped_images.append(image_path)
 
     assert not invalid_shaped_images, f'These images have invalid shape (required {width}x{height}):\n\t' \
-                                      + "\n\t".join(invalid_shaped_images)
+                                      + '\n\t'.join(invalid_shaped_images)
 
 
 def test_dataset_credits():
@@ -49,13 +49,13 @@ def test_dataset_credits():
         images_without_credits.extend([country_folder + image for image in images.difference(images_with_credits)])
 
     assert not invalid_credits, f'These files have invalidly formatted credits:\n\t' \
-                                + "\n\t".join(invalid_credits)
+                                + '\n\t'.join(invalid_credits)
 
     assert not images_not_found, f'These images have credits, but do not exist:\n\t' \
-                                 + "\n\t".join(images_not_found)
+                                 + '\n\t'.join(images_not_found)
 
     assert not images_without_credits, f'These images do not have credits:\n\t' \
-                                       + "\n\t".join(images_without_credits)
+                                       + '\n\t'.join(images_without_credits)
 
 
 class InvalidLabelFormat(Exception):
@@ -109,7 +109,7 @@ def test_dataset_labels():
             images_with_invalid_labels.append(err.path)
 
     assert not images_without_labels, f'These images do not have labels:\n\t' \
-                                      + "\n\t".join(images_without_labels)
+                                      + '\n\t'.join(images_without_labels)
 
     assert not images_with_invalid_labels, f'These images have invalidly formatted label files:\n\t' \
-                                           + "\n\t".join(images_with_invalid_labels)
+                                           + '\n\t'.join(images_with_invalid_labels)
