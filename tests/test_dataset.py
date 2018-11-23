@@ -19,7 +19,9 @@ def test_dataset_image_size():
         if width < min_width or min_height < min_height or channels != 3:
             invalid_shaped_images.append(image_path)
 
-    assert not invalid_shaped_images, f'These images have invalid shape (required {width}x{height}):\n\t' \
+    invalid_shaped_images.sort()
+
+    assert not invalid_shaped_images, f'These images have invalid shape (min size required: {width}x{height}):\n\t' \
                                       + '\n\t'.join(invalid_shaped_images)
 
 
@@ -47,6 +49,10 @@ def test_dataset_credits():
 
         images_not_found.extend([country_folder + image for image in images_with_credits.difference(images)])
         images_without_credits.extend([country_folder + image for image in images.difference(images_with_credits)])
+
+    invalid_credits.sort()
+    images_not_found.sort()
+    images_without_credits.sort()
 
     assert not invalid_credits, f'These files have invalidly formatted credits:\n\t' \
                                 + '\n\t'.join(invalid_credits)
@@ -107,6 +113,9 @@ def test_dataset_labels():
             images_without_labels.append(image_path)
         except InvalidLabelFormat as err:
             images_with_invalid_labels.append(err.path)
+
+    images_without_labels.sort()
+    images_with_invalid_labels.sort()
 
     assert not images_without_labels, f'These images do not have labels:\n\t' \
                                       + '\n\t'.join(images_without_labels)
