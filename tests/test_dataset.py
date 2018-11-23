@@ -9,15 +9,14 @@ import config
 
 
 def test_dataset_image_size():
-    width, height = config.IMAGE_SIZE
-    valid_image_shape = (height, width, 3)  # RGB images only
-
+    min_width, min_height = config.MIN_IMAGE_SIZE
     invalid_shaped_images = []
 
     for image_path in glob.glob(f'{config.DATASET_FOLDER}/*/*.jpg'):
         image = imageio.imread(image_path)
+        width, height, channels = image.shape
 
-        if image.shape != valid_image_shape:
+        if width < min_width or min_height < min_height or channels != 3:
             invalid_shaped_images.append(image_path)
 
     assert not invalid_shaped_images, f'These images have invalid shape (required {width}x{height}):\n\t' \
