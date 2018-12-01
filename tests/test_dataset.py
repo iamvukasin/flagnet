@@ -16,7 +16,7 @@ def test_dataset_image_size():
         image = imageio.imread(image_path)
         width, height, channels = image.shape
 
-        if width < min_width or min_height < min_height or channels != 3:
+        if width < min_width or height < min_height or channels != 3:
             invalid_shaped_images.append(image_path)
 
     invalid_shaped_images.sort()
