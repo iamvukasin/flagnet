@@ -39,3 +39,63 @@ photos:
   filename: rs_00005.jpg
   license: CC0 Public Domain
   url: https://iamvukasin.github.com/flagwaver
+- author: Gmihail
+  download_url: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Serbia.jpg/640px-Flag_of_Serbia.jpg
+  downloader: url_image
+  filename: rs_00006.jpg
+  license: Creative Commons Attribution-Share Alike 4.0 International
+  url: https://commons.wikimedia.org/wiki/File:Flag_of_Serbia.jpg
+- author: Unknown
+  download_url: http://static.kremlin.ru/media/events/photos/big/Bon0TlvsyAei22J5NwYsqGEaqldIRczr.jpg
+  downloader: url_image
+  filename: rs_00007.jpg
+  license: Creative Commons Attribution 4.0 International
+  url: http://en.kremlin.ru/events/president/news/5780
+- author: Usama
+  download_url: https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Serbprotest2011.jpg/640px-Serbprotest2011.jpg
+  downloader: url_image
+  filename: rs_00008.jpg
+  license: Creative Commons Attribution-Share Alike 3.0 Unported
+  url: https://commons.wikimedia.org/wiki/File:Serbprotest2011.jpg
+- author: Fif'
+  download_url: https://farm4.staticflickr.com/3922/15055267425_837218a2aa_z_d.jpg
+  downloader: url_image
+  filename: rs_00009.jpg
+  license: Creative Commons Attribution-Share Alike 2.0 Generic
+  url: https://www.flickr.com/photos/philippelemoine/15055267425
+- author: George M. Groutas
+  download_url: https://farm4.staticflickr.com/3430/3754684294_7604991fd4_z_d.jpg
+  downloader: url_image
+  filename: rs_00010.jpg
+  license: Creative Commons Attribution 2.0 Generic
+  url: https://www.flickr.com/photos/jorge-11/3754684294
+- author: Gmihail
+  download_url: https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Dan_zalosti.jpg/480px-Dan_zalosti.jpg
+  downloader: url_image
+  filename: rs_00011.jpg
+  license: Creative Commons Attribution-Share Alike 4.0 International
+  url: https://commons.wikimedia.org/wiki/File:Dan_zalosti.jpg
+- author: Wouter van Vliet
+  download_url: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Sanja_Ili%C4%87_%26_Balkanika_%282%29_20180510_EuroVisionary.jpg/640px-Sanja_Ili%C4%87_%26_Balkanika_%282%29_20180510_EuroVisionary.jpg
+  downloader: url_image
+  filename: rs_00012.jpg
+  license: Creative Commons Attribution-Share Alike 4.0 International
+  url: https://commons.wikimedia.org/wiki/File:Sanja_Ili%C4%87_%26_Balkanika_(2)_20180510_EuroVisionary.jpg
+- author: Wouter van Vliet
+  download_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sanja_Ili%C4%87_%26_Balkanika_%283%29_20180510_EuroVisionary.jpg/640px-Sanja_Ili%C4%87_%26_Balkanika_%283%29_20180510_EuroVisionary.jpg
+  downloader: url_image
+  filename: rs_00013.jpg
+  license: Creative Commons Attribution-Share Alike 4.0 International
+  url: https://commons.wikimedia.org/wiki/File:Sanja_Ili%C4%87_%26_Balkanika_(3)_20180510_EuroVisionary.jpg
+- author: EuroVisionary
+  download_url: https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Sanja_Vu%C4%8Di%C4%87_with_the_Serbian_flag.jpg/640px-Sanja_Vu%C4%8Di%C4%87_with_the_Serbian_flag.jpg
+  downloader: url_image
+  filename: rs_00014.jpg
+  license: Creative Commons Attribution-Share Alike 4.0 International
+  url: https://commons.wikimedia.org/wiki/File:Sanja_Vu%C4%8Di%C4%87_with_the_Serbian_flag.jpg
+- author: Goran Necin
+  download_url: https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Nemanjina11.jpg/640px-Nemanjina11.jpg
+  downloader: url_image
+  filename: rs_00015.jpg
+  license: Creative Commons Attribution-Share Alike 2.5 Generic
+  url: https://commons.wikimedia.org/wiki/File%3ANemanjina11.jpg
