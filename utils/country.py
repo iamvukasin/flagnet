@@ -11,20 +11,14 @@ import config
 _WIKIDATA_QUERY_ENDPOINT_URL = 'https://query.wikidata.org/sparql'
 _COUNTRIES_CACHE_FILE = 'countries.json'
 _WIKIDATA_COUNTRIES_QUERY = """\
-SELECT ?countryLabel ?code (?shortName AS ?flag) ?flagImage
+SELECT DISTINCT ?countryLabel ?code ?flag ?flagImage
 WHERE {
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 
-  ?country wdt:P31 wd:Q3624078;          # sovereign states only
-           wdt:P297 ?code;               # ISO 3166-1 alpha-2 two-letter country code
-           wdt:P41 ?flagImage;           # URL to SVG flag image from WikiCommons
-           wdt:P1813 ?shortName;         # short names for every country, including Unicode country flag emojis
-           p:P1813 ?shortNameStatement.
-
-  # keep countries with flag emojis only
-  ?shortNameStatement pq:P31 ?type.
-  FILTER(LANG(?shortName) = "zxx" && ?type = wd:Q28840786).
-  FILTER(regex(str(?shortName), "[\\\\x{0001F1E6}-\\\\x{0001F1FF}]{2}")).
+  ?country wdt:P31 wd:Q3624078;  # sovereign states only
+           wdt:P297 ?code;       # ISO 3166-1 alpha-2 two-letter country code
+           wdt:P487 ?flag;       # Unicode country flag emoji
+           wdt:P41 ?flagImage.   # URL to SVG flag image from WikiCommons
 
   # keep countries which are currently members of the United Nations
   ?country p:P463 ?statement.
