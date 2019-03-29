@@ -21,8 +21,8 @@ def test_dataset_image_size():
 
     invalid_shaped_images.sort()
 
-    assert not invalid_shaped_images, f'These images have invalid shape (min size required: {width}x{height}):\n\t' \
-                                      + '\n\t'.join(invalid_shaped_images)
+    assert not invalid_shaped_images, f'These images have invalid shape (min size required:{min_width}x{min_height}):' \
+                                      + '\n\t' + '\n\t'.join(invalid_shaped_images)
 
 
 def test_dataset_credits():
