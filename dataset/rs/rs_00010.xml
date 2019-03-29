@@ -1,23 +1,23 @@
 <annotation>
-	<folder>rs</folder>
-	<filename>rs_00010.jpg</filename>
-	<size>
-		<width>640</width>
-		<height>428</height>
-		<depth>3</depth>
-	</size>
-	<segmented>0</segmented>
-	<object>
-		<name>rs</name>
-		<pose>Unspecified</pose>
-		<truncated>0</truncated>
+    <folder>rs</folder>
+    <filename>rs_00010.jpg</filename>
+    <size>
+        <width>640</width>
+        <height>428</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>rs</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
         <occluded>0</occluded>
-		<difficult>0</difficult>
-		<bndbox>
-			<xmin>33</xmin>
-			<ymin>54</ymin>
-			<xmax>549</xmax>
-			<ymax>399</ymax>
-		</bndbox>
-	</object>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>33</xmin>
+            <ymin>54</ymin>
+            <xmax>549</xmax>
+            <ymax>399</ymax>
+        </bndbox>
+    </object>
 </annotation>
