@@ -1,0 +1,23 @@
+<annotation>
+    <folder>us</folder>
+    <filename>us_00030.jpg</filename>
+    <size>
+        <width>640</width>
+        <height>426</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>us</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>18</xmin>
+            <ymin>10</ymin>
+            <xmax>382</xmax>
+            <ymax>286</ymax>
+        </bndbox>
+    </object>
+</annotation>
