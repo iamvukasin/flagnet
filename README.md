@@ -36,6 +36,7 @@ parameters:
 ```python
 MIN_IMAGE_SIZE = 416, 416         # minimum size of images in the dataset
 SCREENSHOT_IMAGE_SIZE = 800, 600  # size of generated images from Flagwaver website
+NUM_DOWNLOAD_WORKERS = 8          # number of parallel workers when downloading the dataset
 ```
 
 ### Dataset
