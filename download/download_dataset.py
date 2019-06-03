@@ -28,15 +28,15 @@ def _download_single_photo(item: PhotoItem):
 if __name__ == '__main__':
     photo_items = []
 
-    for credits in glob.glob(f'{config.DATASET_FOLDER}/*/credits.yml'):
+    for photo_credits in glob.glob(f'{config.DATASET_FOLDER}/*/credits.yml'):
         # read all photos for a single country
-        with open(credits) as yaml_file:
+        with open(photo_credits) as yaml_file:
             data = yaml.load(yaml_file, Loader=yaml.Loader)
 
         for photo_data in data['photos']:
             downloader_type = photo_data['downloader']
             download_url = photo_data['download_url']
-            path = credits.replace('credits.yml', photo_data['filename'])
+            path = photo_credits.replace('credits.yml', photo_data['filename'])
 
             item = PhotoItem(
                 downloader=downloader_type,
